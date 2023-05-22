@@ -3,6 +3,6 @@
         apply="org.zkoss.bind.BindComposer"
         viewModel="@id('vm') @init('ctrl.UploadCtrl')">
 
-            <button upload="true,maxsize=-1,native" onUpload="@command('onFileUpload')" label="Select berkas"/>
+            <button upload="true,maxsize=-1,native" onUpload="@command('onFileUpload')" label="Pilih berkas"/>
 </window>
 </zk>
